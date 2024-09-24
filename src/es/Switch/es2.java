@@ -1,15 +1,14 @@
-package es;
+package es.Switch;
 
 import java.util.Scanner;
 
 public class es2 {
     public static void main(String[] args) {
 
-        String x = sw();
-        System.out.println(x);
+
     }
 
-    public static String sw (){
+    public static String sw() {
         Scanner sc = new Scanner(System.in);
         System.out.println("inserisci un numero qualsiasi :");
         int num1 = sc.nextInt();
